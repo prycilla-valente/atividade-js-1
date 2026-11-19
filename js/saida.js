@@ -18,3 +18,12 @@ console.log(idade); //Exibe o valor da variável idade no console.
 //Código corrigido
 let nome = "Ana";
 console.log(nome); //Exibe o valor da variável nome no console.
+
+// Variáveis 
+const nomeCompleto = "Prycilla Valente";
+let minhaIdade = 37;
+let cidade = "Rio de Janeiro";
+console.log(nomeCompleto); //Exibe o valor da variável nomeCompleto no console.
+console.log(minhaIdade); //Exibe o valor da variável idade no console.
+console.log(cidade); //Exibe o valor da variável cidade no console.
+

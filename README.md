@@ -55,3 +55,35 @@ console.log(nome);
 - Adicionado o ponto e vírgula (`;`) ao final da declaração.
 - Separado o `console.log(nome)` em uma nova linha.
 - Corrigido o nome da variável dentro do `console.log()`.
+
+## Variáveis
+
+### 1 - Qual a diferença entre let, const e var?
+
+A diferença principal entre `let`, `const` e `var` está na declaração das variáveis e no comportamento em relação à redeclaração, reatribuição e escopo.
+
+- **`let`**: permite declarar e reatribuir uma variável, mas não permite redeclará-la no mesmo escopo.
+- **`const`**: declara uma variável cujo valor não pode ser reatribuído nem redeclarado no mesmo escopo.
+- **`var`**: permite declarar, reatribuir e redeclarar uma variável. Possui escopo de função ou global.
+
+### 3 - Crie variáveis para armazenar:
+
+- Nome completo
+- Idade
+- Cidade onde mora
+
+```javascript
+const nomeCompleto = "Prycilla Valente";
+let minhaIdade = 37;
+let cidade = "Rio de Janeiro";
+```
+
+### 4 - Exiba todos os valores no console com mensagens claras, por exemplo: `console.log("Nome:", nomeCompleto);`
+
+```javascript
+console.log("Nome:", nomeCompleto); // Exibe o nome completo no console.
+
+console.log("Idade:", minhaIdade); // Exibe a idade no console.
+
+console.log("Cidade:", cidade); // Exibe a cidade onde mora no console.
+```
