@@ -87,3 +87,78 @@ console.log("Idade:", minhaIdade); // Exibe a idade no console.
 
 console.log("Cidade:", cidade); // Exibe a cidade onde mora no console.
 ```
+---
+
+## Operadores
+
+### 1 - O que são operadores aritméticos? Dê exemplos.
+
+Operadores aritméticos são utilizados para realizar operações matemáticas com números.
+
+**Exemplos:**
+
+- `+` Adição
+- `-` Subtração
+- `*` Multiplicação
+- `/` Divisão
+- `++` Incremento
+- `--` Decremento
+- `%` Módulo (resto da divisão)
+- `**` Exponenciação
+
+### 2 - O que são operadores de comparação? Explique com exemplos.
+
+Operadores de comparação são utilizados para comparar dois valores. Eles sempre retornam um valor booleano: `true` (verdadeiro) ou `false` (falso).
+
+**Exemplos:**
+
+- `==` Igualdade de valor.
+- `===` Igualdade de valor e tipo.
+- `>` Maior que.
+- `<` Menor que.
+- `>=` Maior ou igual a.
+- `<=` Menor ou igual a.
+
+### 3 - Usando variáveis numéricas, calcule e exiba:
+
+- Soma
+- Subtração
+- Multiplicação
+- Divisão
+
+```javascript
+const a = 10;
+const b = 5;
+
+console.log(a + b); // Adição
+console.log(a - b); // Subtração
+console.log(a * b); // Multiplicação
+console.log(a / b); // Divisão
+console.log(a % b); // Módulo (resto da divisão)
+console.log(a ** b); // Exponenciação (a elevado a b)
+```
+
+### 4 - Compare duas variáveis e exiba no console se elas são iguais ou diferentes.
+
+```javascript
+let x = 25;
+let y = 5;
+
+console.log("São iguais?", x == y); // Igualdade
+console.log("São diferentes?", x != y); // Desigualdade
+```
+
+### 5 - Use operadores lógicos para:
+
+- Verificar se um número é maior que 10 e menor que 50.
+- Verificar se um número é menor que 5 ou maior que 20.
+
+```javascript
+let numero = 30;
+
+// Maior que 10 E menor que 50
+console.log("Entre 10 e 50?", numero > 10 && numero < 50); // true
+
+// Menor que 5 OU maior que 20
+console.log("Menor que 5 ou maior que 20?", numero < 5 || numero > 20); // true
+```
